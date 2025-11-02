@@ -8,7 +8,7 @@ class RecipesRoom extends StatelessWidget {
     return Scaffold(
       backgroundColor: const Color(0xFFFDEDEC),
       appBar: AppBar(
-        title: const Text('🍲 Recipes Room'),
+        title: const Text('Recipes Room'),
         backgroundColor: Colors.brown,
       ),
       body: const Center(

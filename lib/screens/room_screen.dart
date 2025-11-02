@@ -9,7 +9,7 @@ class RoomScreen extends StatefulWidget {
   final String imageUrl;
   final ThemeModel theme;
 
-  const RoomScreen({Key? key, required this.title, required this.imageUrl, required this.theme}) : super(key: key);
+  const RoomScreen({super.key, required this.title, required this.imageUrl, required this.theme});
 
   @override
   State<RoomScreen> createState() => _RoomScreenState();
@@ -57,7 +57,7 @@ class _RoomScreenState extends State<RoomScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final primary = Color(int.parse('FF' + widget.theme.primaryColor.replaceAll('#', ''), radix: 16));
+    final primary = Color(int.parse('FF${widget.theme.primaryColor.replaceAll('#', '')}', radix: 16));
     return Scaffold(
       appBar: AppBar(title: Text(widget.title), backgroundColor: primary),
       body: loading ? const Center(child: CircularProgressIndicator()) : items.isEmpty ? const Center(child: Text('No items yet')) : ListView.builder(itemCount: items.length, itemBuilder: (_, i) => _itemTile(items[i])),

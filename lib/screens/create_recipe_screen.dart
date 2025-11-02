@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../services/api_service.dart';
 
 class CreateRecipeScreen extends StatefulWidget {
-  const CreateRecipeScreen({Key? key}) : super(key: key);
+  const CreateRecipeScreen({super.key});
   @override
   State<CreateRecipeScreen> createState() => _CreateRecipeScreenState();
 }

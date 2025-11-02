@@ -8,7 +8,7 @@ class SkillsRoom extends StatelessWidget {
     return Scaffold(
       backgroundColor: const Color(0xFFE9F7EF),
       appBar: AppBar(
-        title: const Text('🎨 Skills Room'),
+        title: const Text(' Skills Room'),
         backgroundColor: Colors.brown,
       ),
       body: const Center(

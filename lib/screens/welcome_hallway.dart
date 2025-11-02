@@ -6,7 +6,7 @@ import '../models/theme_model.dart';
 import 'home_screen.dart';
 
 class WelcomeHallway extends StatefulWidget {
-  const WelcomeHallway({Key? key}) : super(key: key);
+  const WelcomeHallway({super.key});
   @override
   State<WelcomeHallway> createState() => _WelcomeHallwayState();
 }

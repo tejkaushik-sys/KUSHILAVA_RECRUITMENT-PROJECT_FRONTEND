@@ -6,7 +6,7 @@ import 'welcome_hallway.dart';
 import '../models/theme_model.dart';
 
 class SplashHome extends StatefulWidget {
-  const SplashHome({Key? key}) : super(key: key);
+  const SplashHome({super.key});
   @override
   State<SplashHome> createState() => _SplashHomeState();
 }
