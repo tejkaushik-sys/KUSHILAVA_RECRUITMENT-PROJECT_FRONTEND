@@ -1,0 +1,16 @@
+{
+  "id": "global",
+  "displayName": "Global Home",
+  "primaryColor": "#C4A484",
+  "accentColor": "#5A4634",
+  "roomImages": {
+    "Kitchen": "https://picsum.photos/seed/kitchen_vector/800/600",
+    "Stories": "https://picsum.photos/seed/stories_vector/800/600",
+    "Skills": "https://picsum.photos/seed/skills_vector/800/600",
+    "Spiritual": "https://picsum.photos/seed/spiritual_vector/800/600",
+    "Community": "https://picsum.photos/seed/community_vector/800/600"
+  },
+  "sounds": {
+    "entry": "https://www.soundjay.com/nature/sounds/wind-chime-1.mp3"
+  }
+}
